@@ -3,6 +3,22 @@ entries:
   autodelete-discord:
   - apiVersion: v2
     appVersion: 1.4.0
+    created: "2025-02-19T21:43:30.262831267Z"
+    description: A Helm chart for the ksurl/docker-autodelete-discord image
+    digest: 85b378f0d1d4a6db9680fe03b910f30061618160ac476e9fe4fe2b18d46466e3
+    maintainers:
+    - name: Nicely Dunn Cloud Corp.
+    name: autodelete-discord
+    sources:
+    - https://github.com/nicely-dunn/helm-charts/tree/main/charts/autodelete-discord
+    - https://github.com/ksurl/docker-autodelete-discord
+    - https://github.com/riking/AutoDelete
+    type: application
+    urls:
+    - https://github.com/nicely-dunn/helm-charts/releases/download/autodelete-discord-0.1.1/autodelete-discord-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.4.0
     created: "2025-02-19T05:07:17.154478516Z"
     description: A Helm chart for the ksurl/docker-autodelete-discord image
     digest: 14547a911f2e4b45fe149038680d3a7dc40252235d93df17c862cc19e93243c3
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://github.com/nicely-dunn/helm-charts/releases/download/autodelete-discord-0.1.0/autodelete-discord-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-19T05:07:17.15448594Z"
+generated: "2025-02-19T21:43:30.262838781Z"
