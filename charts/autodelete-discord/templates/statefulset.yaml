@@ -94,8 +94,6 @@ spec:
       kind: PersistentVolumeClaim
       metadata:
         name: data
-        labels:
-            {{- include "autodelete-discord.labels" $ | nindent 10 }}
         {{- with .annotations }}
         annotations:
           {{- toYaml . | nindent 10 }}
