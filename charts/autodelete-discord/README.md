@@ -1,5 +1,7 @@
 # Autodelete Discord
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nicely-dunn-helm-charts)](https://artifacthub.io/packages/search?repo=nicely-dunn-helm-charts)
+
 ## Introduction
 
 A Helm chart for deploying the [ksurl/docker-autodelete-discord](https://github.com/ksurl/docker-autodelete-discord) image, which is used to manage and automatically delete messages in a Discord server.
