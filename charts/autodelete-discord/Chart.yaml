@@ -1,0 +1,12 @@
+apiVersion: v2
+name: autodelete-discord
+description: A Helm chart for the ksurl/docker-autodelete-discord image
+maintainers:
+  - name: Nicely Dunn Cloud Corp.
+type: application
+version: 0.1.0
+appVersion: 1.4.0
+sources:
+  - https://github.com/nicely-dunn/helm-charts/tree/main/charts/autodelete-discord
+  - https://github.com/ksurl/docker-autodelete-discord
+  - https://github.com/riking/AutoDelete
