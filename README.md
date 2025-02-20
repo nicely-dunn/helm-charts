@@ -1,5 +1,7 @@
 # helm-charts
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nicely-dunn-helm-charts)](https://artifacthub.io/packages/search?repo=nicely-dunn-helm-charts) ![Release Charts](https://github.com/nicely-dunn/helm-charts/actions/workflows/release.yml/badge.svg?branch=main)
+
 ## Usage
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
