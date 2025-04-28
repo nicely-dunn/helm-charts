@@ -42,34 +42,34 @@ helm install my-release nicely-dunn/autodelete-discord
 
 The following table lists the configurable parameters of the autodelete-discord chart and their default values.
 
-| Parameter                     | Description                                                  | Default                  |
-| ----------------------------- | ------------------------------------------------------------ | ------------------------ |
-| `replicaCount`                | Number of replicas                                           | `1`                      |
-| `image.repository`            | Image repository                                             | `ksurl/autodelete-discord` |
-| `image.pullPolicy`            | Image pull policy                                            | `IfNotPresent`           |
-| `image.tag`                   | Image tag                                                    | `--`                     |
-| `serviceAccount.create`       | Specifies whether a service account should be created        | `true`                   |
-| `serviceAccount.name`         | The name of the service account to use                       | `--`                     |
-| `containerPort`               | The port of the container                                    | `2202`                   |
-| `existingSecretName`          | Existing secret with a config.yml key                        | `--`                     |
-| `config.clientid`             | Discord client ID                                            | `--`                     |
-| `config.clientsecret`         | Discord client secret                                        | `--`                     |
-| `config.bottoken`             | Discord bot token                                            | `--`                     |
-| `config.adminuser`            | Discord admin user                                           | `--`                     |
-| `config.backlog_limit`        | Backlog limit for messages                                   | `200`                    |
-| `config.errorlog`             | Path to error log                                            | `--`                     |
-| `config.statusmessage`        | Status message                                               | `--`                     |
-| `resources.requests.cpu`      | CPU resource requests                                        | `15m`                    |
-| `resources.requests.memory`   | Memory resource requests                                     | `25Mi`                   |
-| `resources.limits.memory`     | Memory resource limits                                       | `50Mi`                   |
-| `volumeClaimTemplate.enabled` | Enable volume claim template                                 | `true`                   |
-| `volumeClaimTemplate.spec`    | Specifications for the volume claim template                 | see values.yaml          |
-| `envs`                        | Additional environment variables                             | `[]`                     |
-| `volumes`                     | Additional volumes                                           | `[]`                     |
-| `volumeMounts`                | Additional volume mounts                                     | `[]`                     |
-| `nodeSelector`                | Node selector                                                | `{}`                     |
-| `tolerations`                 | Tolerations                                                  | `[]`                     |
-| `affinity`                    | Affinity rules                                               | `{}`                     |
+| Parameter                     | Description                                           | Default                    |
+|-------------------------------|-------------------------------------------------------|----------------------------|
+| `replicaCount`                | Number of replicas                                    | `1`                        |
+| `image.repository`            | Image repository                                      | `ksurl/autodelete-discord` |
+| `image.pullPolicy`            | Image pull policy                                     | `IfNotPresent`             |
+| `image.tag`                   | Image tag                                             | `--`                       |
+| `serviceAccount.create`       | Specifies whether a service account should be created | `true`                     |
+| `serviceAccount.name`         | The name of the service account to use                | `--`                       |
+| `containerPort`               | The port of the container                             | `2202`                     |
+| `existingSecretName`          | Existing secret with a config.yml key                 | `--`                       |
+| `config.clientid`             | Discord client ID                                     | `--`                       |
+| `config.clientsecret`         | Discord client secret                                 | `--`                       |
+| `config.bottoken`             | Discord bot token                                     | `--`                       |
+| `config.adminuser`            | Discord admin user                                    | `--`                       |
+| `config.backlog_limit`        | Backlog limit for messages                            | `200`                      |
+| `config.errorlog`             | Path to error log                                     | `--`                       |
+| `config.statusmessage`        | Status message                                        | `--`                       |
+| `resources.requests.cpu`      | CPU resource requests                                 | `15m`                      |
+| `resources.requests.memory`   | Memory resource requests                              | `25Mi`                     |
+| `resources.limits.memory`     | Memory resource limits                                | `50Mi`                     |
+| `volumeClaimTemplate.enabled` | Enable volume claim template                          | `true`                     |
+| `volumeClaimTemplate.spec`    | Specifications for the volume claim template          | see values.yaml            |
+| `envs`                        | Additional environment variables                      | `[]`                       |
+| `volumes`                     | Additional volumes                                    | `[]`                       |
+| `volumeMounts`                | Additional volume mounts                              | `[]`                       |
+| `nodeSelector`                | Node selector                                         | `{}`                       |
+| `tolerations`                 | Tolerations                                           | `[]`                       |
+| `affinity`                    | Affinity rules                                        | `{}`                       |
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example:
 
@@ -93,11 +93,7 @@ helm uninstall my-release
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
-## Maintainers
-
-- Nicely Dunn Cloud Corp.
-
-## Source Code
+## References
 
 - [autodelete-discord](https://github.com/ksurl/docker-autodelete-discord)
 - [AutoDelete](https://github.com/riking/AutoDelete)
