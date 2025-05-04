@@ -49,4 +49,23 @@ entries:
     urls:
     - https://github.com/nicely-dunn/helm-charts/releases/download/autodelete-discord-0.1.0/autodelete-discord-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-19T22:13:36.427895162Z"
+  joplin-server:
+  - annotations:
+      artifacthub.io/changes: '- Initial release'
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 3.3.13
+    created: "2025-05-04T20:16:44.68391632Z"
+    description: A Helm chart for Joplin Server
+    digest: 5cc7434708ceea346e987ec7172b3b8701e40ce45a7c70638ed79614b0a9b1be
+    home: https://github.com/nicely-dunn/helm-charts/tree/main/charts/joplin-server
+    name: joplin-server
+    sources:
+    - https://github.com/laurent22/joplin/tree/dev/packages/server
+    - https://github.com/laurent22/joplin
+    - https://hub.docker.com/r/joplin/server
+    type: application
+    urls:
+    - https://github.com/nicely-dunn/helm-charts/releases/download/joplin-server-0.1.0/joplin-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-04T20:16:44.683928693Z"
