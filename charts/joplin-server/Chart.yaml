@@ -1,0 +1,15 @@
+apiVersion: v2
+name: joplin-server
+description: A Helm chart for Joplin Server
+type: application
+version: 0.1.0
+appVersion: "3.3.13"
+home: https://github.com/nicely-dunn/helm-charts/tree/main/charts/joplin-server
+sources:
+  - https://github.com/laurent22/joplin/tree/dev/packages/server
+  - https://github.com/laurent22/joplin
+  - https://hub.docker.com/r/joplin/server
+annotations:
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/changes: |
+    - Initial pre-release

@@ -1,0 +1,2 @@
+CHART: {{ .Chart.Name }}:{{ .Chart.Version }}
+IMAGE: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
