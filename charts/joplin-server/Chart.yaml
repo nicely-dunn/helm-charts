@@ -2,7 +2,7 @@ apiVersion: v2
 name: joplin-server
 description: A Helm chart for Joplin Server
 type: application
-version: 0.1.1
+version: 0.2.0
 appVersion: "3.4.1"
 home: https://github.com/nicely-dunn/helm-charts/tree/main/charts/joplin-server
 sources:
