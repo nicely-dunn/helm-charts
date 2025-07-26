@@ -51,6 +51,24 @@ entries:
     version: 0.1.0
   joplin-server:
   - annotations:
+      artifacthub.io/changes: '- Update appVersion to 3.4.1'
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 3.4.1
+    created: "2025-07-26T22:06:32.080393553Z"
+    description: A Helm chart for Joplin Server
+    digest: 6429f3b177bd703bd5ee617e4dd7d9f3233612b8f3952b140153e34d14d6dcdc
+    home: https://github.com/nicely-dunn/helm-charts/tree/main/charts/joplin-server
+    name: joplin-server
+    sources:
+    - https://github.com/laurent22/joplin/tree/dev/packages/server
+    - https://github.com/laurent22/joplin
+    - https://hub.docker.com/r/joplin/server
+    type: application
+    urls:
+    - https://github.com/nicely-dunn/helm-charts/releases/download/joplin-server-0.2.0/joplin-server-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       artifacthub.io/changes: '- Add README'
       artifacthub.io/prerelease: "false"
     apiVersion: v2
@@ -86,4 +104,4 @@ entries:
     urls:
     - https://github.com/nicely-dunn/helm-charts/releases/download/joplin-server-0.1.0/joplin-server-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-04T21:47:24.644601211Z"
+generated: "2025-07-26T22:06:32.080412488Z"
